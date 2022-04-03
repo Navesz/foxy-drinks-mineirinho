@@ -1,0 +1,50 @@
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+.navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    background-color: #222;
+    height: 80px;
+    flex: 1;
+    align-items: center;
+    overflow-block: auto;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.344);
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.item {
+    width: 200px;
+
+}
+
+.item:hover {
+    opacity: 60%;
+}
+
+.voltar {
+    position:absolute;
+    top: 15px;
+    left: 15px;
+    height: 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.voltar:hover {
+    opacity: 60%;
+}
+
+.voltar:active {
+    background-color: none;
+}

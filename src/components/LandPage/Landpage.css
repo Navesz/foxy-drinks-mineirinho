@@ -1,0 +1,52 @@
+.pageBody {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 80px);
+    padding-bottom: 15%;
+}
+
+.tipeBebida {
+    margin: 0 1rem;
+    
+    text-decoration: none!important;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 1px 5px 1px #000000; 
+    box-shadow: 1px 1px 5px 1px #000000a4;
+    border: 2px solid rgba(0, 0, 0, 0.344);
+}
+
+.tipeBebida img:hover {
+    opacity: 80%;
+}
+
+.tipeBebida:first-child {
+    margin: 1rem;
+}
+
+.tipeBebida img {
+    border-radius: 0.625rem;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.socialButton {
+    background-color: #222;
+    margin: 1rem;
+    margin-top: 0px;
+    border-radius: .625rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    height: 100%;
+    padding: .8rem 0;
+    -webkit-box-shadow: 1px 1px 5px 1px #000000; 
+    box-shadow: 1px 1px 5px 1px #000000;
+}
+
+.socialButton img {
+    width: 90%;
+    max-height: 90%;
+}

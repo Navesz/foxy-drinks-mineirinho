@@ -1,0 +1,114 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #101010;
+    border: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(58, 58, 58);
+    border-radius: 10px;
+}
+
+.scroll {
+    
+    display: flex;
+    scroll-snap-type: x proximity;
+    overflow-x: scroll;
+    scroll-snap-align: center;
+    height: calc(100vh - 80px);
+    gap: 5vw;
+}
+
+.background {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100vw;
+    margin-top: -60vh;
+    scroll-snap-align: center;
+    /* margin-right: 10vw; */
+    
+    
+    /* height: calc(100vh - 80px); */
+}
+
+.textBox {
+    display: flex;
+    flex-direction: column;
+    background-color: #101010;
+    width: 100vw;
+    height: 300px;
+    border-top-left-radius: 4.625rem;
+    border-top-right-radius: 4.625rem;
+    padding-top: 80px;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    
+   
+}
+
+.imagem {
+    margin-bottom: -60px;
+    height: 30%;
+    z-index: 80;
+    object-fit:cover;
+    width: 70vw;
+    border-radius: 40px;
+}
+
+.textBox .price {
+    color: #FF4925;
+    font-size: 48px;
+}
+
+.textBox .name {
+    color: white;
+    font-size: 50px;
+}
+
+.textBox .sabor {
+    padding-top: 5px;
+    color: rgb(226, 102, 102);
+    font-size: 30px;
+}
+
+.imagemBlur {
+    display: block;
+    position: absolute;
+    height: calc(100vh - 80px);
+    width: 100vw;
+    filter: blur(46px);
+    z-index: -1;
+    object-fit: cover;
+}
+
+.bolinhasBox {
+    display: flex;
+    position: absolute;
+    background-color: #FF4925;
+    width: 40vw;
+    height: 50px;
+    z-index: 90;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: end;
+    justify-content: center;
+    align-items: center;
+    bottom: 20px;
+    gap: 5px;
+}
+
+.bolinha {
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+    border-radius: 50%;
+}
