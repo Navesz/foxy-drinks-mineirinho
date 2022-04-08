@@ -6,7 +6,7 @@ import { listaBebidas } from '../../data/listaBebidas'
 export default function BebidasSeparadas() {
     const { id } = useParams()
 
-    const productSelect = listaBebidas.find(bebida => id == bebida.id)
+    const productSelect = listaBebidas.find(bebida => Number(id) === bebida.id)
 
     if(!productSelect) {
         return (
@@ -16,8 +16,6 @@ export default function BebidasSeparadas() {
 
     let tamanho = productSelect.sabores.length
     console.log(tamanho)
-
-
 
     var rows = [];
     for (var i = 0; i < tamanho; i++) {
@@ -29,9 +27,16 @@ export default function BebidasSeparadas() {
         <>
             <div className='scroll'>
             <img className='imagemBlur' src={image} alt="" />
-                {productSelect.sabores.map(({nome, img, preco, color}, index) =>
-                    <div key={index} className="background">
-                            <img className='imagem' src={img} alt="" />
+                {productSelect.sabores.map(({nome, img, preco, color}, index) => 
+                    
+                    <div key={index} className="background"> 
+                    {(() => {
+                        if(index !== tamanho) {return (<div className='setaDireita'>D</div>)}
+                        if(index !== 0) {return (<div className='setaDireita'>D</div>)}
+                    })()}
+                   
+                    
+                        <img className='imagem' src={img} alt="" />
                         <div className="textBox">
                             <span className="price">{preco}</span>
                             <span className="name">{productSelect.nome}</span>
