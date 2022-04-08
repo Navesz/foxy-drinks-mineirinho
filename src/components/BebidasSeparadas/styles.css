@@ -106,18 +106,26 @@
     gap: 5px;
 }
 
+.setas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 20rem;
+    width: 100%;
+    position: relative;
+    top: 25vh;
+
+    padding: 0 20px;
+}
+
 .setaEsquerda {
     background-color: #FF4925;
-    display: flex;
-    position: relative;
-    right: 45%;
-    bottom: -20%;
+
 }
 
 .setaDireita {
     background-color: #FF4925;
-    display: flex;
-    position: relative;
-    left: 45%;
-    bottom: -20%;
+    
+
 }

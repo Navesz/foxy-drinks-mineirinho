@@ -30,12 +30,14 @@ export default function BebidasSeparadas() {
                 {productSelect.sabores.map(({nome, img, preco, color}, index) => 
                     
                     <div key={index} className="background"> 
-                        {(() => {
+                        {/* {(() => {
                             if(index !== tamanho - 1) {return (<div className='setaDireita'>D</div>)}
-                        })()}
-
-                        {index !== 0 && <div className='setaEsquerda'>E</div>}
-                   
+                        })()} */}
+                        
+                        <div className='setas'>
+                            {index !== 0 && <div className='setaEsquerda'>E</div>}
+                            {index !== tamanho - 1 && <div className='setaDireita'>D</div>}
+                        </div>
                     
                         <img className='imagem' src={img} alt="" />
                         <div className="textBox">
