@@ -106,9 +106,18 @@
     gap: 5px;
 }
 
-.bolinha {
-    width: 30px;
-    height: 30px;
-    background-color: aqua;
-    border-radius: 50%;
+.setaEsquerda {
+    background-color: #FF4925;
+    display: flex;
+    position: relative;
+    right: 45%;
+    bottom: -20%;
+}
+
+.setaDireita {
+    background-color: #FF4925;
+    display: flex;
+    position: relative;
+    left: 45%;
+    bottom: -20%;
 }
