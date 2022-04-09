@@ -12,8 +12,8 @@
     cursor: pointer;
     border-radius: 10px;
     -webkit-box-shadow: 1px 1px 5px 1px #000000; 
-    box-shadow: 1px 1px 5px 1px #000000a4;
-    border: 2px solid rgba(0, 0, 0, 0.344);
+    box-shadow: 1px 1px 5px 1px #000000;
+    
 }
 
 .tipeBebida img:hover {

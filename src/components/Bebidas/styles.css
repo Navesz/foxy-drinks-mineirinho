@@ -8,8 +8,10 @@
     background-color: #222;
     border-radius: 0.315rem;
     -webkit-box-shadow: 1px 1px 5px 1px #000000; 
-    box-shadow: 1px 1px 5px 1px #000000a4;
-    border: 2px solid rgba(0, 0, 0, 0.344);
+    box-shadow: 1px 1px 5px 1px #000000;
+    /* -webkit-box-shadow: 1px 1px 5px 1px #000000; 
+    box-shadow: 1px 1px 5px 1px #000000a4; */
+    /* border: 2px solid rgba(0, 0, 0, 0.344); */
 }
 
 .imgContente {

@@ -1,15 +1,19 @@
+
 ::-webkit-scrollbar {
-    width: 10px;
+    height: 20px;
+    position: absolute;
+    
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #101010;
+    background-image: linear-gradient(#101010, rgba(0, 0, 0, 0.641));
     border: none;
 }
 
 ::-webkit-scrollbar-thumb {
     background: rgb(58, 58, 58);
-    border-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .scroll {
@@ -107,6 +111,7 @@
 }
 
 .setas {
+    opacity: 40%;
     display: flex;
     align-items: center;
     justify-content: space-between;
