@@ -110,13 +110,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 40px;
-    gap: 20rem;
+    
+    gap: 15rem;
     width: 100%;
     position: relative;
     top: 25vh;
 
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 .nada {
