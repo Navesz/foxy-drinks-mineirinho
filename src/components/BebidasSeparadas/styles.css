@@ -110,7 +110,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    height: 40px;
     gap: 20rem;
     width: 100%;
     position: relative;
@@ -119,13 +119,19 @@
     padding: 0 20px;
 }
 
-.setaEsquerda {
-    background-color: #FF4925;
+.nada {
 
 }
 
-.setaDireita {
-    background-color: #FF4925;
-    
+.setaEsquerda {
+    /* background-color: #FF4925; */
+    width: 30px;
+    height: 30px;
+    transform: scaleX(-1);
+}
 
+.setaDireita {
+    /* background-color: #FF4925; */
+    width: 30px;
+    height: 30px;
 }

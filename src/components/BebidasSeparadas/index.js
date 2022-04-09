@@ -1,4 +1,5 @@
 import image from '../../images/image.jpg'
+import seta from '../../images/seta.svg'
 import './styles.css'
 import { useParams } from 'react-router-dom'
 import { listaBebidas } from '../../data/listaBebidas'
@@ -30,14 +31,18 @@ export default function BebidasSeparadas() {
                 {productSelect.sabores.map(({nome, img, preco, color}, index) => 
                     
                     <div key={index} className="background"> 
-                        {/* {(() => {
-                            if(index !== tamanho - 1) {return (<div className='setaDireita'>D</div>)}
-                        })()} */}
+
                         
                         <div className='setas'>
-                            {index !== 0 && <div className='setaEsquerda'>E</div>}
-                            {index !== tamanho - 1 && <div className='setaDireita'>D</div>}
+                            {index == 0 && <div className='nada'></div>}
+                            {index !== 0 && <img className='setaEsquerda' src={seta}/>}
+                            {index !== tamanho - 1 && <img className='setaDireita' src={seta}/>}
+                            {index == tamanho - 1 && <div className='nada'></div>}
                         </div>
+
+                        {/* {(() => {
+                            if(index == 0) {return (<div className='setaDireita'>D</div>)}
+                        })()} */}
                     
                         <img className='imagem' src={img} alt="" />
                         <div className="textBox">
