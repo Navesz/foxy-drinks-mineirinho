@@ -119,23 +119,33 @@
     gap: 10rem;
     width: 100%;
     position: relative;
-    top: 25vh;
+    top: 35vh;
 
-    padding: 0 0px;
+    padding: 0 5%;
 }
 
 
-.setaEsquerda {
+.setaEsquerda img {
+    box-sizing: border-box;
     /* background-color: #FF4925; */
     width: 30px;
     height: 30px;
     transform: scaleX(-1);
-    margin: 5%;
+    margin: 10%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
 }
 
-.setaDireita {
+.setaDireita img {
+    
+    box-sizing: border-box;
+    
+    margin: 10%;
     /* background-color: #FF4925; */
-    margin: 5%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
     width: 30px;
     height: 30px;
 }
