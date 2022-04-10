@@ -1,3 +1,6 @@
+* {
+    scroll-behavior: smooth;
+}
 
 ::-webkit-scrollbar {
     height: 20px;
@@ -35,9 +38,8 @@
     width: 100vw;
     margin-top: -60vh;
     scroll-snap-align: center;
+    
     /* margin-right: 10vw; */
-    
-    
     /* height: calc(100vh - 80px); */
 }
 
@@ -53,7 +55,6 @@
     text-align: center;
     font-family: Roboto, sans-serif;
     font-weight: bold;
-    
    
 }
 
@@ -81,6 +82,12 @@
     padding-top: 5px;
     color: rgb(226, 102, 102);
     font-size: 30px;
+}
+
+.textBox .description {
+    padding-top: 10px;
+    color: rgb(187, 187, 187);
+    font-size: 20px;
 }
 
 .imagemBlur {

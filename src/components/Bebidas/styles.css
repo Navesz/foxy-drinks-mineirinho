@@ -38,7 +38,13 @@
     text-transform: uppercase;
     flex: 2;
     padding-left: 10px;
-    color: hsla(0, 0%, 100%, 0.8);
+    color: hsla(114, 75%, 73%, 0.8); 
+    
+}
+
+.price {
+    color: hsla(0, 0%, 100%, 0.6); 
+    font-size: 1.3rem;
 }
 
 .buttonDetail {

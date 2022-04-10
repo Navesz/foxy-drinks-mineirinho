@@ -30,14 +30,14 @@ export default function BebidasSeparadas() {
         <>
             <div className='scroll'>
             <img className='imagemBlur' src={image} alt="" />
-                {productSelect.sabores.map(({nome, img, preco, color}, index) => 
+                {productSelect.sabores.map(({nome, img, preco, color, description}, index) => 
                     
                     <div key={index} className="background"> 
 
                         
                         <div className='setas'>
                             {index == 0 && <div className='nada'></div>}
-                            {index !== 0 && <span  className='setaEsquerda'  onClick={() => {document.querySelector('.scroll').scroll({top: 0, left: ((window.screen.availWidth) * (index + -1)), behavior: 'smooth'})}}>
+                            {index !== 0 && <span  className='setaEsquerda'  onClick={() => {document.querySelector('.scroll').scroll({top: 0, left: ((window.screen.availWidth) * (index - 1)), behavior: 'smooth'})}}>
                                 <img src={seta} />
                             </span>}
                             {index !== tamanho - 1 && <span className='setaDireita'  onClick={() => {document.querySelector('.scroll').scroll({top: 0, left: ((index + 1) * (window.screen.availWidth)), behavior: 'smooth'})}} >
@@ -55,6 +55,7 @@ export default function BebidasSeparadas() {
                             <span className="price">{preco}</span>
                             <span className="name">{productSelect.nome}</span>
                             <span style={{color: color}} className="sabor">{nome}</span>
+                            <span className='description'>{description}</span>
                         </div>
                     </div> 
                 )}

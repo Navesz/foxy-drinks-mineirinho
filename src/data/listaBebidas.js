@@ -27,21 +27,21 @@ export const listaBebidas = [
         preco: 'R$14,99',
         img: caipirinhaMorango,
         sabores: [
-            {nome: 'Limão', img: caipirinhaLimao, preco: '', color: '#A9F13E'}, 
-            {nome: 'Morango', img: caipirinhaMorango, preco: '', color: '#FF6645'}, 
-            {nome: 'Maracujá', img: caipirinhaMaracuja, preco: '', color: '#EFBE47'},
-            {nome: 'Abacaxi', img: caipirinhaAbacaxi, preco: '', color: '#deff63'},
+            {nome: 'Limão', img: caipirinhaLimao, preco: '', color: '#A9F13E', description: 'Limão, Cachaça e especiarias'}, 
+            {nome: 'Morango', img: caipirinhaMorango, preco: '', color: '#FF6645', description: 'Limão, Cachaça e especiarias'}, 
+            {nome: 'Maracujá', img: caipirinhaMaracuja, preco: '', color: '#EFBE47', description: 'Limão, Cachaça e especiarias'},
+            {nome: 'Abacaxi', img: caipirinhaAbacaxi, preco: '', color: '#deff63', description: 'Limão, Cachaça e especiarias'},
         ]
     },
     { 
         id: 10,
-        nome: 'Soda Italiana',
+        nome: ['Soda Italiana', ' (Sem Álcool)'],
         preco: 'R$14,99',
         img: sodaItalianaMorango,
         sabores: [
-            {nome: 'Morango', img: sodaItalianaMorango, preco: '', color: '#FF6645'}, 
-            {nome: 'Limão', img: sodaItalianaLimao, preco: '', color: '#A9F13E'},
-            {nome: 'Abacaxi', img: sodaItalianaAbacaxi, preco: '', color: '#deff63'},
+            {nome: 'Morango', img: sodaItalianaMorango, preco: '', color: '#FF6645', description: 'Limão, Cachaça e especiarias'}, 
+            {nome: 'Limão', img: sodaItalianaLimao, preco: '', color: '#A9F13E', description: 'Limão, Cachaça e especiarias'},
+            {nome: 'Abacaxi', img: sodaItalianaAbacaxi, preco: '', color: '#deff63', description: 'Limão, Cachaça e especiarias'},
         ]
     },
     { 
@@ -50,10 +50,10 @@ export const listaBebidas = [
         preco: 'R$19,99',
         img: caipirinhaLimao,
         sabores: [
-            {nome: 'Limão', img: caipirinhaLimao, preco: '', color: '#A9F13E'}, 
-            {nome: 'Morango', img: caipirinhaMorango, preco: '', color: 'FF6645'}, 
-            {nome: 'Maracujá', img: caipirinhaMaracuja, preco: '', color: 'EFBE47'}, 
-            {nome: 'Abacaxi', img: caipirinhaAbacaxi, preco: '', color: '#deff63'},
+            {nome: 'Limão', img: caipirinhaLimao, preco: '', color: '#A9F13E', description: 'Limão, Cachaça e especiarias'}, 
+            {nome: 'Morango', img: caipirinhaMorango, preco: '', color: 'FF6645', description: 'Limão, Cachaça e especiarias'}, 
+            {nome: 'Maracujá', img: caipirinhaMaracuja, preco: '', color: 'EFBE47', description: 'Limão, Cachaça e especiarias'}, 
+            {nome: 'Abacaxi', img: caipirinhaAbacaxi, preco: '', color: '#deff63', description: 'Limão, Cachaça e especiarias'},
         ]
     },
     { 
@@ -61,7 +61,7 @@ export const listaBebidas = [
         nome: 'Piña Colada' ,
         preco: 'R$19,99',
         img: pinaColada,
-        sabores: [{nome: '', img: pinaColada, preco: ''}]
+        sabores: [{nome: '', img: pinaColada, preco: '', color: '', description: 'Limão, Cachaça e especiarias'}]
     },
     { 
         id: 4,
@@ -69,7 +69,7 @@ export const listaBebidas = [
         preco: 'R$24,99',
         img: transilvania,
         sabores: [
-            {nome: 'Transilvania', img: transilvania, preco: ''},
+            {nome: 'Transilvania', img: transilvania, preco: '', color: '', description: 'Limão, Cachaça e especiarias'},
             {nome: 'Schweppes Citrus', img: schweppes, preco: '', color: '#DFF13E'}
         ]
     },
@@ -79,8 +79,8 @@ export const listaBebidas = [
         preco: 'R$14,99',
         img: blueGin,
         sabores: [
-            {nome: 'BlueGin', img: blueGin, preco: '', color: '#5BD7F1'}, 
-            {nome: 'Normal', img: ginTropical, preco: '', color: '#DFF13E'}
+            {nome: 'BlueGin', img: blueGin, preco: '', color: '#5BD7F1', description: 'Limão, Cachaça e especiarias'}, 
+            {nome: 'Normal', img: ginTropical, preco: '', color: '#DFF13E', description: 'Limão, Cachaça e especiarias'}
         ]
     },
     { 
@@ -88,7 +88,7 @@ export const listaBebidas = [
         nome: 'Cuba Libre' ,
         preco: 'R$19,99',
         img: cubaLibre,
-        sabores: [{nome: '', img: cubaLibre, preco: '', color: '#A47676'}]
+        sabores: [{nome: '', img: cubaLibre, preco: '', color: '#A47676', description: 'Limão, Cachaça e especiarias'}]
     },
     { 
         id: 7,

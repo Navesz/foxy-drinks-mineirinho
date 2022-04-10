@@ -16,7 +16,7 @@ export default function Bebidas() {
                     </div>
                     <div className="text">
                         <span>{bebida.nome}</span>
-                        <span>{bebida.preco}</span>
+                        <span className='price'>{bebida.preco}</span>
                     </div>
                     <div className="buttonDetail">
                         <img src={seta} alt="" />
