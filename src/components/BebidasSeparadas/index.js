@@ -37,7 +37,7 @@ export default function BebidasSeparadas() {
                         
                         <div className='setas'>
                             {index == 0 && <div className='nada'></div>}
-                            {index !== 0 && <span  className='setaEsquerda'  onClick={() => {document.querySelector('.scroll').scroll({top: 0, left: ((window.screen.availWidth) / (index - 1)), behavior: 'smooth'})}}>
+                            {index !== 0 && <span  className='setaEsquerda'  onClick={() => {document.querySelector('.scroll').scroll({top: 0, left: ((window.screen.availWidth) * (index + -1)), behavior: 'smooth'})}}>
                                 <img src={seta} />
                             </span>}
                             {index !== tamanho - 1 && <span className='setaDireita'  onClick={() => {document.querySelector('.scroll').scroll({top: 0, left: ((index + 1) * (window.screen.availWidth)), behavior: 'smooth'})}} >
