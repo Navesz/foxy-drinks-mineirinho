@@ -27,10 +27,10 @@ export const listaBebidas = [
         preco: 'R$14,99',
         img: caipirinhaMorango,
         sabores: [
-            {nome: 'Limão', img: caipirinhaLimao, preco: '', color: '#A9F13E', description: 'Limão, Cachaça e especiarias'}, 
-            {nome: 'Morango', img: caipirinhaMorango, preco: '', color: '#FF6645', description: 'Limão, Cachaça e especiarias'}, 
-            {nome: 'Maracujá', img: caipirinhaMaracuja, preco: '', color: '#EFBE47', description: 'Limão, Cachaça e especiarias'},
-            {nome: 'Abacaxi', img: caipirinhaAbacaxi, preco: '', color: '#deff63', description: 'Limão, Cachaça e especiarias'},
+            {nome: 'Limão', img: caipirinhaLimao, preco: '', color: '#A9F13E', description: 'Limão, açúcar, Cachaça e especiarias aromatizantes'}, 
+            {nome: 'Morango', img: caipirinhaMorango, preco: '', color: '#FF6645', description: 'Morango, açúcar, Cachaça e especiarias aromatizantes'}, 
+            {nome: 'Maracujá', img: caipirinhaMaracuja, preco: '', color: '#EFBE47', description: 'Maracujá, açúcar, Cachaça e especiarias aromatizantes'},
+            {nome: 'Abacaxi', img: caipirinhaAbacaxi, preco: '', color: '#deff63', description: 'Abacaxi, açúcar, Cachaça e especiarias aromatizantes'},
         ]
     },
     { 
@@ -39,9 +39,10 @@ export const listaBebidas = [
         preco: 'R$14,99',
         img: sodaItalianaMorango,
         sabores: [
-            {nome: 'Morango', img: sodaItalianaMorango, preco: '', color: '#FF6645', description: 'Limão, Cachaça e especiarias'}, 
-            {nome: 'Limão', img: sodaItalianaLimao, preco: '', color: '#A9F13E', description: 'Limão, Cachaça e especiarias'},
-            {nome: 'Abacaxi', img: sodaItalianaAbacaxi, preco: '', color: '#deff63', description: 'Limão, Cachaça e especiarias'},
+            {nome: 'Morango', img: sodaItalianaMorango, preco: '', color: '#FF6645', description: 'Limão, açúcar, água c/gas e especiarias aromatizantes'}, 
+            {nome: 'Limão', img: sodaItalianaLimao, preco: '', color: '#A9F13E', description: 'Limão, açúcar, água c/gas e especiarias aromatizantes'},
+            {nome: 'Abacaxi', img: sodaItalianaAbacaxi, preco: '', color: '#deff63', description: 'Limão, açúcar, água c/gas e especiarias aromatizantes'},
+            {nome: 'Maracujá', img: caipirinhaMaracuja, preco: '', color: '#EFBE47', description: 'Maracujá, açúcar, água c/gas e especiarias aromatizantes'},
         ]
     },
     { 
@@ -50,10 +51,10 @@ export const listaBebidas = [
         preco: 'R$19,99',
         img: caipirinhaLimao,
         sabores: [
-            {nome: 'Limão', img: caipirinhaLimao, preco: '', color: '#A9F13E', description: 'Limão, Cachaça e especiarias'}, 
-            {nome: 'Morango', img: caipirinhaMorango, preco: '', color: 'FF6645', description: 'Limão, Cachaça e especiarias'}, 
-            {nome: 'Maracujá', img: caipirinhaMaracuja, preco: '', color: 'EFBE47', description: 'Limão, Cachaça e especiarias'}, 
-            {nome: 'Abacaxi', img: caipirinhaAbacaxi, preco: '', color: '#deff63', description: 'Limão, Cachaça e especiarias'},
+            {nome: 'Limão', img: caipirinhaLimao, preco: '', color: '#A9F13E', description: 'Limão, açúcar, Vodka e especiarias aromatizantes'}, 
+            {nome: 'Morango', img: caipirinhaMorango, preco: '', color: 'FF6645', description: 'Limão, açúcar, Vodka e especiarias aromatizantes'}, 
+            {nome: 'Maracujá', img: caipirinhaMaracuja, preco: '', color: 'EFBE47', description: 'Limão, açúcar, Vodka e especiarias aromatizantes'}, 
+            {nome: 'Abacaxi', img: caipirinhaAbacaxi, preco: '', color: '#deff63', description: 'Limão, açúcar, Vodka e especiarias aromatizantes'},
         ]
     },
     { 
@@ -61,7 +62,7 @@ export const listaBebidas = [
         nome: 'Piña Colada' ,
         preco: 'R$19,99',
         img: pinaColada,
-        sabores: [{nome: '', img: pinaColada, preco: '', color: '', description: 'Limão, Cachaça e especiarias'}]
+        sabores: [{nome: '', img: pinaColada, preco: '', color: '', description: 'Abacaxi, açúcar, leite de coco, leite de moça, Rum e especiarias aromatizantes'}]
     },
     { 
         id: 4,
@@ -69,8 +70,8 @@ export const listaBebidas = [
         preco: 'R$24,99',
         img: transilvania,
         sabores: [
-            {nome: 'Transilvania', img: transilvania, preco: '', color: '', description: 'Limão, Cachaça e especiarias'},
-            {nome: 'Schweppes Citrus', img: schweppes, preco: '', color: '#DFF13E'}
+            {nome: 'Transilvania', img: transilvania, preco: '', color: '', description: 'Gin, água tônica, chá de groselhas vermelhas, pimenta rosa e especiarias aromatizantes'},
+            {nome: 'Chá Mate', img: schweppes, preco: '', color: '#DFF13E', description: 'Gin, água tônica, chá mate, zimbro, canela em pau e especiarias aromatizantes'}
         ]
     },
     { 
@@ -79,8 +80,8 @@ export const listaBebidas = [
         preco: 'R$14,99',
         img: blueGin,
         sabores: [
-            {nome: 'BlueGin', img: blueGin, preco: '', color: '#5BD7F1', description: 'Limão, Cachaça e especiarias'}, 
-            {nome: 'Normal', img: ginTropical, preco: '', color: '#DFF13E', description: 'Limão, Cachaça e especiarias'}
+            {nome: 'BlueGin', img: blueGin, preco: '', color: '#5BD7F1', description: 'Gin, energético, especiarias'}, 
+            {nome: 'Schweppes Citrus', img: ginTropical, preco: '', color: '#DFF13E', description: 'Fatias de laranja, Gin, energético tropical e especiarias'}
         ]
     },
     { 
