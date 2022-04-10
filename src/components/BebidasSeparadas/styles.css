@@ -64,6 +64,7 @@
     object-fit:cover;
     width: 70vw;
     border-radius: 40px;
+    max-width: 300px;
 }
 
 .textBox .price {
