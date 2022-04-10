@@ -4,7 +4,9 @@ import './styles.css'
 import { useParams } from 'react-router-dom'
 import { listaBebidas } from '../../data/listaBebidas'
 
+
 export default function BebidasSeparadas() {
+
     const { id } = useParams()
 
     const productSelect = listaBebidas.find(bebida => Number(id) === bebida.id)
@@ -35,8 +37,8 @@ export default function BebidasSeparadas() {
                         
                         <div className='setas'>
                             {index == 0 && <div className='nada'></div>}
-                            {index !== 0 && <img className='setaEsquerda' src={seta}/>}
-                            {index !== tamanho - 1 && <img className='setaDireita' src={seta}/>}
+                            {index !== 0 && <img  className='setaEsquerda'  onClick={() => {document.querySelector('.scroll').scroll({top: 0, left: ((window.screen.availWidth) / (index - 1)), behavior: 'smooth'})}} src={seta}/>}
+                            {index !== tamanho - 1 && <img className='setaDireita'  onClick={() => {document.querySelector('.scroll').scroll({top: 0, left: ((index + 1) * (window.screen.availWidth)), behavior: 'smooth'})}} src={seta}/>}
                             {index == tamanho - 1 && <div className='nada'></div>}
                         </div>
 

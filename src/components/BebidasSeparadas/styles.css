@@ -21,7 +21,7 @@
     display: flex;
     scroll-snap-type: x proximity;
     overflow-x: scroll;
-    scroll-snap-align: center;
+    /* scroll-snap-align: center; */
     height: calc(100vh - 80px);
     gap: 5vw;
 }
@@ -115,7 +115,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+    z-index: 999;
     gap: 15rem;
     width: 100%;
     position: relative;
@@ -124,19 +124,18 @@
     padding: 0 10px;
 }
 
-.nada {
-
-}
 
 .setaEsquerda {
     /* background-color: #FF4925; */
     width: 30px;
     height: 30px;
     transform: scaleX(-1);
+    margin: 40px;
 }
 
 .setaDireita {
     /* background-color: #FF4925; */
+    margin: 40px;
     width: 30px;
     height: 30px;
 }
