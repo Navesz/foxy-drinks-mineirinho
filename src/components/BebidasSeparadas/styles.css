@@ -48,7 +48,7 @@
     flex-direction: column;
     background-color: #101010;
     width: 100vw;
-    height: 300px;
+    max-height: 550px;
     border-top-left-radius: 4.625rem;
     border-top-right-radius: 4.625rem;
     padding-top: 80px;
@@ -85,9 +85,13 @@
 }
 
 .textBox .description {
-    padding-top: 10px;
+    
     color: rgb(187, 187, 187);
     font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+    background: #6363632e;
+    border-radius: 10px;
 }
 
 .imagemBlur {

@@ -39,8 +39,17 @@
     flex: 2;
     padding-left: 10px;
     color: hsla(114, 75%, 73%, 0.8); 
+    color: hsl(29, 95%, 62%); 
+    /* 
+      */
     
 }
+
+@media screen and (max-width: 380px) {
+    .bebidas .text {
+       font-size: 1.3rem;
+    }
+  }
 
 .price {
     color: hsla(0, 0%, 100%, 0.6); 
