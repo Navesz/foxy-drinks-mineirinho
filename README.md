@@ -4,4 +4,4 @@
 ![image](https://user-images.githubusercontent.com/58537948/193485115-24c14200-5e15-4e36-a278-0b1df23da535.png)
 ![image](https://user-images.githubusercontent.com/58537948/193485147-bf23060f-fb18-4f65-841a-9b9b65c442db.png)
 
-https://foxy-drinks-mineirinho-ahmhh8h0h-navesz.vercel.app/bebidas/0
+https://foxy-drinks-mineirinho.vercel.app/
